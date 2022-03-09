@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: auto;
+}
+body {
+  background-color: url(../images/1.jpg);
+}
+wrapper {
+  height: 700px;
+  width: 1089px;
+  background-color: antiquewhite;
+}
+nav {
+  height: 50px;
+  width: 1089px;
+  background-color: aqua;
+  line-height: 50px;
+}
+header {
+  width: 1089px;
+  height: 150px;
+  background: url(../images/2.jpg);
+}
+content {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(196, 161, 110);
+}
+aside {
+  height: 100%;
+  width: 40%;
+  background-color: blue;
+  float: left;
+}
+section {
+  height: 100%;
+  width: 60%;
+  background-color: rgb(207, 243, 219);
+  float: left;
+}
+.menu li {
+  height: 100%;
+  width: 130px;
+  background-color: antiquewhite;
+  float: left;
+  line-height: 50px;
+  text-indent: 20px;
+  list-style: none;
+  position: relative;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu li:hover {
+  background-color: black;
+}
+li:hover > a {
+  color: white;
+  font-style: italic;
+}
+.menu li .submenu {
+  display: none;
+  position: absolute;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+nav span form #btnGo {
+  padding: 3px;
+  border-radius: 50%;
+}
+nav span form #txtEmail {
+  padding: 3px;
+  border-radius: 10%;
+}
+.wrapper header p {
+  font-size: 50px;
+  text-shadow: 10px 20px 20px red;
+  text-align: center;
+}
+.wrapper header:hover p {
+  transform: rotate(25deg);
+}
